@@ -1,0 +1,40 @@
+td {
+  border-right: 1px solid black;
+  border-top: 1px solid black; }
+
+table {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black; }
+
+li.danger {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  background-color: red;
+  list-style: none;
+  opacity: 0.5; }
+li.success {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  background-color: green;
+  list-style: none;
+  opacity: 0.5; }
+
+body form {
+  margin: 150px auto; }
+  body form fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+    background-color: #3F44B9;
+    color: white;
+    border-color: lime; }
+    body form fieldset legend {
+      background-color: lime;
+      color: grey; }
+
+/*# sourceMappingURL=style.css.map */

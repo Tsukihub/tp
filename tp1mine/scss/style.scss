@@ -1,0 +1,55 @@
+$grosseurTrait : 1px;
+
+td{
+	border-right : $grosseurTrait solid black;
+	border-top : $grosseurTrait solid black;
+	}
+
+table {
+	border-left  : $grosseurTrait solid black;
+	border-bottom : $grosseurTrait solid black;
+
+}
+
+
+li{
+	&.danger{
+		color : white;
+		text-align: center;
+		line-height: 20px;
+		background-color: red;
+		list-style: none;
+		opacity: 0.5;
+	}
+	&.success{
+		color : white;
+		text-align: center;
+		line-height: 20px;
+		background-color: green;
+		list-style: none;
+		opacity: 0.5;
+	}
+}
+
+
+body{
+	form{
+		margin: 150px auto;
+		fieldset{
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			max-width: 50%;
+			justify-content: center;
+			text-align: center;
+			
+			background-color: #3F44B9;
+			color : white;
+			border-color:  lime;
+			legend{
+				background-color: lime;
+				color :grey;
+			}
+		}
+	}
+}
